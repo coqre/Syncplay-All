@@ -1,0 +1,13 @@
+"Descargador" universal de x32 y x64. También disponible la versión de Cinema Prozak.
+Más info en README.md.
+
+
+- Descomprima la verión que desee, y sea cual sea el elegido, eliminar el "_normal" o "_cinema" según corresponda.
+
+- La idea es que el downloader sea compatible con el mayor número de equipos Windows, por eso recurro al más universal y básico "wget", tanto de 32 como de 64 bits.
+
+
+· El ícono se usa para hacer el ejecutable.
+
+¡Todo listo!
+
