@@ -1,0 +1,15 @@
+- Syncplay y todas sus dependencias se encuentran en C:\Syncplay\.
+
+- De aqui en adelante, cualquier archivo multimedia a sincronizar, echo tiene que ser ubicado en esta ruta: C:\Syncplay\Multimedia\
+
+- Ejecutar al menos una vez al mes "Syncplay-Actualizar_mpv" que se encuentra en el menú Inicio de Windows, junto al mismo Syncplay (acceso directo).
+
+- Cambia el nombre de usuario al que gustes y Guarda las configuraciones.
+
+- Este programa es una versión alterna a Syncplay-All, que viene preconfigurada específicamente para Cinema Prozak.
+  Si quieres saber más sobre Syncplay-All y cómo configurar este, visita la página web: https://github.com/coqre/Syncplay-All
+
+- Antes de contactar al desarrollador por algún problema, intenta reiniciar tu compu. xD. A veces funciona.
+
+- Disfruta! ^-^
+

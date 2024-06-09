@@ -1,0 +1,19 @@
+Intaladores universales de x32 y x64. También disponible la versión de Cinema Prozak.
+Más info en README.md.
+
+- Para 32 y 64 bits elegir el install.bat de la versión que desee (normal o cinema), descomprimirlo, y sea cual sea el elegido, eliminar el "_normal" o "_cinema" según corresponda.
+Aparte, si quiere de 32 bits, deberá eliminar las líneas del .bat correspondiente a la instalación y eliminación del archivo "VC_redist.x64.exe", y eliminar, claro, el archivo del mismo nombre de esta carpeta.
+
+- El reproductor mpv tiene sus propias versiones de 32 y 64 bits dentro de la carpeta del mismo nombre, en archivos .rar separados. Descomprimir el deseado y si quiere, eliminar el otro.
+
+- Dentro de la carpeta Syncplay, hay un archivo .zip llamado "syncplay.ini". Descomprimir la versión deseada, y, al igual que con "install.bat", eliminar el "_normal" o "_cinema".
+
+- Habrán 4 ejecutables deiferentes correspondientes al "normal" y al de "cinema", tanto de 32 como de 64 bits.
+
+- Para la versión normal, el archivo mas_info.txt no es necesario.
+
+
+· El ícono y el logo se usan para hacer los ejecutables. Junto al banner, disponibles en mpv > extras > images.rar.
+
+¡Todo listo!
+
