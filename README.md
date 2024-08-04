@@ -1,5 +1,5 @@
 # Syncplay All
-![Syncplay-All](Syncplay-All_banner.png)
+![Syncplay-All](ignore/Syncplay-All_banner.png)
 <br><br>
 "Syncplay-All for Windows" es un proyecto para hacer accesible a una masa no capacitada en el ámbito informático el programa Syncplay junto a todas sus dependencias, como vc-redist, mpv, yt-dlp y ffmpeg.
 Syncplay sirve para sincronizar multimedia como películas o canciones en una sala virtual. Más información, abajo.
@@ -24,11 +24,11 @@ Microsoft Visual C++ Redistributable Version, Syncplay, mpv, yt-dlp y ffmepg est
 
 Dentro de ella se encuentran las carpetas correspondientes que son las de Syncplay, mpv y Multimedia. Esta última es necesaria para que Syncplay pueda saber en dónde buscar los archivos respectivos.
 
-- **Syncplay** es el programa principal para sincronizar la multimedia.
-- **Vc-redist** (Microsoft Visual C++ Redistributable Version) está por compatibilidad con Syncplay ya que en unos equipos parece no funcionar si no lo tienen instalado.
-- **mpv** es el reproductor recomendado y mejor compatible con Syncplay.
-- **yt-dlp** es un programa para descargar videos de distintas plataformas; mpv lo necesita para reproducir videos en línea con los que Syncplay también es compatible.
-- **ffmepg** lo necesita yt-dlp para poder manejar los archivos que tiene que reproducir.
+- [**Syncplay**](https://syncplay.pl/) es el programa principal para sincronizar la multimedia.
+- [**Vc-redist**](https://learn.microsoft.com/es-es/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Microsoft Visual C++ Redistributable Version) está por compatibilidad con Syncplay ya que en unos equipos parece no funcionar si no lo tienen instalado.
+- [**mpv**](https://mpv.io/) es el reproductor recomendado y mejor compatible con Syncplay.
+- [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) es un programa para descargar videos de distintas plataformas; mpv lo necesita para reproducir videos en línea con los que Syncplay también es compatible.
+- [**ffmepg**](https://www.ffmpeg.org/) lo necesita yt-dlp para poder manejar los archivos que tiene que reproducir.
 
 Una vez extraído se inicia el archivo “install.bat”. Este instala de manera silenciosa vc-redist y borra el/los instalador/es porque ya no es/son necesario/s (depende si se instala solo la versión de 32 bits o también la versión de 64 bits). Luego mueve los accesos directos de Syncplay.exe y de updater.bat al Inicio de Windows. A continuación ejecutará “updater.bat” que se encuentra dentro de la carpeta de mpv que busca y actualiza el reproductor mpv a su versión más reciente junto con ffmpeg y yt-dlp.
 
