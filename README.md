@@ -10,7 +10,7 @@ Syncplay sirve para sincronizar multimedia como películas o canciones en una sa
 
 ## Instalar
 
-Simplemente vaya a [releases](https://github.com/canqiro/Syncplay-All/releases) y descargue el ejecutable (.exe). Ejecute el archivo y se le pedirá derechos de administrador el cual tiene que aceptar. Automáticamente se abrirá una consola de comandos. Dejar que termine el proceso que tiene que hacer y seguir los pocos pasos respectivos en caso de existir (si tiene que elegir números, hágalo desde el teclado alfanumérico; si no lo hace, puede que tenga que reiniciar el instalador). Esto último puede variar en existir o no dependiendo de la versión. Es necesaria una conexión a internet porque el instalador tiene que descargar los archivos respectivos.
+Simplemente vaya a [releases](https://github.com/coqre/Syncplay-All/releases) y descargue el ejecutable (.exe). Ejecute el archivo y se le pedirá derechos de administrador el cual tiene que aceptar. Automáticamente se abrirá una consola de comandos. Dejar que termine el proceso que tiene que hacer y seguir los pocos pasos respectivos en caso de existir (si tiene que elegir números, hágalo desde el teclado alfanumérico; si no lo hace, puede que tenga que reiniciar el instalador). Esto último puede variar en existir o no dependiendo de la versión. Es necesaria una conexión a internet porque el instalador tiene que descargar los archivos respectivos.
 
 **¡Todo listo!**
 
