@@ -21,7 +21,7 @@ Se recomienda mucho ver los propios repositorios para más información de los m
 
 Microsoft Visual C++ Redistributable Version, Syncplay, mpv, yt-dlp y ffmepg están en sus respectivos repositorios. El instaldor es un archivo autoextraíble que se extrae directamente en Program Files, creando una carpeta llamada “mpv” (`C:\Program Files\mpv\`).
 
-Dentro de ella se encuentran el instalador (`updater.ps1`) que usará CMD para descargar e instalar todos los archivos correspondientes más actuales desde sus respectivos repositorios.
+Dentro de ella se encuentran el instalador (`updater.bat`) que usará CMD para asegurarse que las rutas sean correctas y decodifica "updater.ps1" (codificado en base64).
 
 - [**Syncplay**](https://syncplay.pl/) es el programa principal para sincronizar la multimedia.
 - [**Vc-redist**](https://learn.microsoft.com/es-es/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Microsoft Visual C++ Redistributable Version) está por compatibilidad con Syncplay ya que en unos equipos parece no funcionar si no lo tienen instalado.
@@ -29,9 +29,9 @@ Dentro de ella se encuentran el instalador (`updater.ps1`) que usará CMD para d
 - [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) es un programa para descargar videos de distintas plataformas; mpv lo necesita para reproducir videos en línea con los que Syncplay también es compatible.
 - [**ffmepg**](https://www.ffmpeg.org/) lo necesita yt-dlp para poder manejar los archivos que tiene que reproducir.
 
-Una vez extraído se inicia el archivo “updater.bat” que se encuentra dentro de la carpeta de mpv que busca y descarga el reproductor mpv a su versión más reciente junto con ffmpeg, y yt-dlp. Descargar la versión portable más reciente de Syncplay y la extrae en (`C:\Program Files\Syncplay\`).
-Instala vc_redist en su versión de 32 bits, la instala y elimina el instalador.
-Se descarga 7zip en caso de ser necesario, ya que necesita extraer los archivos comprimidos. [7zip](https://7-zip.org/) es un programa parecido a Winrar que permite comprimir y descomprimir archivos, es de código abierto y usable mediante consola de comandos.
+El script `updater.bat` descarga e instala todos los archivos correspondientes más actuales desde sus respectivos repositorios. busca y descarga el reproductor mpv a su versión más reciente junto con ffmpeg, y yt-dlp. Descarga la versión portable más reciente de Syncplay y la extrae en (`C:\Program Files\Syncplay\`).
+Descarga vc_redist en su versión de 32 bits, la instala y elimina el instalador.
+Se descarga 7zip en sus versiones ligeras en caso de ser necesario, ya que necesita extraer los archivos comprimidos. [7zip](https://7-zip.org/) es un programa parecido a Winrar que permite comprimir y descomprimir archivos, es de código abierto y usable mediante consola de comandos.
 Cuando ya acabó, de descargar e instalar todo lo necesario, aparecerá un mensaje en la consola imprimiendo que ha finalizado, y abre Syncplay, en muestra de que ya puede usarse.
 
 Se recomienda ejecutar “updater.bat” al menos una vez al mes para mantener la compatibilidad. Este ya se encuentra directamente en el menú de inicio como “actualizar mpv” así que solo tiene que hacer clic en el mismo (pedirá privilegios de administrador) y esperar a que actualice todo. Se debería cerrar la ventana de CMD automáticamente.
